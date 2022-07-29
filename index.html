@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col">
+        <div class="title"> Characters</div>
+        <div><ul class="ulitem" id="list">
+        </ul>
+    </div>
+    <div>
+        <button type="button" class="btn btn-light margin" id="addbutton">Add Characters</button>
+    </div>
+    <div id="form" class="hide" class="form">
+        <label>Name:&nbsp;&nbsp;</label>
+        <input id="addedname">
+        <br>
+        <label>Count:&nbsp;&nbsp;</label>
+        <input id="addedcount">
+        <br>
+        <label>Source:&nbsp;</label>
+        <input  id="addedurl">
+        <br>
+        <button type="button" class="btn btn-light margin" id="submitbutton">Submit</button>
+        <button type="button" class="btn btn-light margin" id="cancelbutton">Cancel</button>
+        
+    </div>
+        </div>
+        <div class="col">
+            <div><img id="currentimage" class="chosenimage"></div>
+            <div><label id="currentname"></label></div>
+            <div><label >Count:</label>
+            <label id="currentcount"></label>
+            </div>
+            <ul class="ulitem" id="list">
+            </ul>
+            </div>
+    </div>
+ 
+   
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
